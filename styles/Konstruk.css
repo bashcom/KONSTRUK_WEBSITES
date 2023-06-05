@@ -1,0 +1,560 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 19px;
+   /* font-family: "Times New Roman", serif;*/
+      /* background-color: #D3D3D3;*/
+
+    font-family: "Roboto", sans-serif;
+    color: rgb(90, 87, 87);
+    
+}
+
+/*  MARGIN ON TOP OF THE NAV */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+/*  FIRST  NAV BAR HEADER */
+
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+    justify-content: space-between;
+  
+  }
+  
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-one{
+    background-color: black;
+    color: white;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .left > div + div{
+    margin-left: 40px;
+  }
+  
+  .right{
+    margin-left: 40px;
+  }
+  
+  .left > div:hover,
+  .right > div:hover{
+    color: black;
+    transition: all 0.5x;
+  }
+  
+  span{
+    margin-left: 5px;
+  }
+
+
+
+    /*  SECOND NAV BAR HEADER */
+
+header{
+   
+    background-color:  white;
+    /*   background-color: rgb(147, 176, 213);*/
+    height: 150px;
+    /* line-height: 80px; */
+    width: 100%;
+}
+
+.nav__menus{
+    float: right;
+    margin-right: 30px;
+   
+   /*   margin: 0;*/
+    /* padding: 0;*/
+  
+}
+
+.logoimage{
+    float: left;
+    margin-left: 100px;
+    height: 90px;
+    width: 220;
+   
+   /*   margin: 0;*/
+    /* padding: 0;*/
+  
+}
+
+.nav__menus li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+    
+}
+
+.nav__menus li a {
+    color: black;
+    text-decoration: none;
+    text-transform: initial;
+    font-size: 17px;
+    padding: 7px 13px;
+
+    /*   TRANSITION EFFECT ON NAV MENU*/
+
+    transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+
+}
+
+
+    /*  HOVER  TRANSITION EFFECT ON NAV MENU*/
+
+.nav__menus li a:hover{
+    /* color: rgb(114, 38, 200);*/
+   /*  text-transform: lowercase; */
+       /* text-decoration: dashed; */
+    font-size: 19px;
+    color: #FFA500;
+    font-weight: bold;
+    border-bottom: 2px solid #FFA500;
+    padding-bottom: 10px;
+
+}
+
+
+    /*  HERO BANNER START*/
+
+.hero__banner{
+    height: 800px;
+  
+    /*background-image:  linear-gradient(rgba(215, 193, 193, 0.5), rgba(0,0,0,0.5)), url('../images/images_niit/niit1.jpg');*/
+    background-image:  /* linear-gradient(rgba(215, 193, 193, 0.5), rgba(0,0,0,0.5)), */ url('../images/Images_konstruk/image_hero/konstruk25.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-weight: 700;
+
+}
+
+
+nav img{
+    width: 150px;
+   ;
+}
+
+.hero__banner__text{        
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 65%;
+    
+}
+
+.hero__banner__text h1, .hero__banner__text p {
+    /*color: #6610f2;*/
+    color: black;
+    font-size: 40px;
+    line-height: 35px;
+    font-size: 'Poppins' sans-serif;
+
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    line-height: 18px;
+  
+  
+}
+
+
+    /*  HERO BANNER START*/
+
+    /*TEXT PARTNER THE P AND P4 START */
+
+.p4 p {
+  color: black;
+  font-size: 22px;
+  line-height: 18px;
+
+
+}
+
+    /*TEXT ON HERO BANNER */
+    .hero__banner__text h4{
+      color: grey;
+      font-size: 29px;
+      margin-bottom: 22;
+      padding: 0;
+    
+      font-size: 'Poppins' sans-serif;
+
+  }
+
+.hero__banner__text h1{
+    color: black;
+    font-size: 55px;
+    margin-bottom: 22;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.hero__banner__text p{
+    color: black;
+    font-size: 22px;
+    line-height: 20px;  
+    margin-bottom: 30;
+    padding: 0;
+    font-size: 'Poppins' sans-serif;
+}
+
+
+.hero__button{
+    padding: 18px 37px;
+    text-transform: initial;
+    border-radius: 30px 30px 30px 30px;
+    background: #FFD580 ;
+    color: #2e2c2c;
+    text-align: center;  
+    font-size: 18;
+    border: 2px solid orange;
+    
+
+    /* BUTTON SIZE
+    width:90px;
+    height:40px;
+     */
+
+}
+
+  
+/* FORMATING BUTTON HOVER   */  
+
+.hero__button:hover{
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: black;
+    border: 2px solid white;
+    color: white;
+   }
+
+
+   /*SIGN UP BUTTON AND    */
+
+   .nav .nav__menus .btn-signup{
+
+    
+
+    padding: 10px 25px;
+    text-transform: initial;
+    /*border-radius: 30px 30px 30px 30px;*/
+    /*background: #FFA500;*/
+    background: #FFD580;
+    color: #2e2c2c;
+    text-align: center;  
+    font-size: 18;
+    border: 2px solid black;
+    
+
+}
+
+
+ 
+/* APPLY HOVER ON SIGHN P BUTTON*/
+
+.nav .nav__menus .btn-signup:hover{
+   
+    background: black;
+    color : white;
+
+     
+    /*background: #ffffff;
+    color : #2e2c2c*/
+
+  } 
+
+
+ /* CSS KONSTRUCT 3 DIMENSTIONAL IMAGE START SECTION  */
+
+ .konga__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 70;
+}
+
+.konga__sub__container img{
+  width: 200px;
+}
+
+.konga__sub__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  margin: 0px;
+ 
+
+
+/*   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 20px;*/
+}
+
+
+
+/* .konga__container__item{
+  flex: 1;
+} */
+
+.konga__hero{
+   /* width: 100%;*/
+ width: 1200px;
+ margin-left: 60;
+ height: 500px;
+}
+
+
+ .konga__sub__1 h3{
+  margin: 0px;
+  padding: 10px; 
+  font-size: 44;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+  
+}
+
+.konga__sub__1 p5{
+  margin: 0px;
+  padding: 10px; 
+  font-size: 25;
+  box-align: center;
+  text-align: center;
+
+  
+}
+
+
+.konga__sub__2 , .konga__sub__1{
+  margin: 5px;
+  padding: 10px; 
+  font-size: 22;
+
+}*/
+
+.konga__sub__1 img{
+  padding : 10px;
+  margin: 0;
+  
+}
+
+
+.konga__sub__2 img{
+  padding : 10px;
+}
+
+.Konga2_image{
+  width: 800px;
+  height: 200px;
+  
+}
+
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+
+  color: black;
+  font-size: 45px;
+  margin-bottom: 15;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+
+
+}
+
+
+
+
+
+
+ 
+ /* CSS KONSTRUCT 3 DIMENSTIONAL IMAGE END SECTION  */
+
+
+
+/* SERVICE CONTAINER STARTS*/
+
+.service__container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(208, 214, 216, 0.809);
+
+}
+
+.service__item{
+    height: 300px ;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.bash_service_image{
+    width: 400px;
+    height: 300px;
+
+    /*   TRANSITION EFFECT ON IMAGE*/
+
+    /* transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1*/
+}
+
+ /*
+.bash_service_image:hover{
+    width: 410px;
+    height: 310px;
+
+}
+
+*/
+
+/* SERVICE CONTAINER ENDS*/
+
+
+
+
+  /*  TEXT BODY - IT SERVICE AND PARTNER POSITION CENTER START*/
+
+
+  .p4 {
+    /*  font-family: "Brush Script MT", Cursive;*/ 
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    text-align: center;
+    font-size: 18px;
+   
+    color: rgb(90, 87, 87);
+  
+}
+
+  /*  TEXT IT SERVICE POSITION CENTER END*/
+  
+
+
+/* PARTNER CONTAINER STARTS*/
+
+.partner__container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.partner__item{
+    height: 300px ;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.bash_partner_image{
+    width: 200px;
+    height: 150px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* partner HOVER IMAGE  EFFECT */
+
+.bash_partner_image:hover{
+    width: 210px;
+    height: 160px;
+
+}
+
+/* partner CONTAINER ENDS*/
+
+
+
+/* footer */
+
+footer{
+    background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+   
+}
+
+footer li{
+   list-style-type: none;
+   padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: none;
+    
+}
+
+
+  
+/* ABOVE THE FOOTER START*/
+
+.p2 {
+    font-family: "Brush Script MT", Cursive;
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    font-size: 25px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(45, 43, 43);
+  
+  }
+
+/* ABOVE THE FOOTER END*/
+.p3 {
+       /*  font-family: "Brush Script MT", Cursive;    */ 
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    text-align: center;
+    font-size: 18px;
+
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(45, 43, 43);
+  
+  }
+
+

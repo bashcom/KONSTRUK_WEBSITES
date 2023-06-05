@@ -1,0 +1,925 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top__nav{
+    height: 60px;
+    background-color: #010D14;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  NAV TOP MENU ITEM */
+.top__nav__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* HOVER NAV TOP MENU ITEM */
+.top__nav__item:hover{
+    color: yellow
+  
+}
+
+.top__nav__item div{
+    padding: 0px 10px;
+}
+
+.top__nav__item i{
+    padding: 0px 10px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.lower__nav{
+    height: 120px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.lower__nav a{
+ padding: 0px 30px;
+ font-size: 18px;
+ text-decoration: none;
+ font-weight: 700;
+ color: #010D14;
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+}
+
+.lower__nav a:hover{
+    font-size: 20px;
+ color: #F7940F;
+ border-bottom: 2px solid #F7940F;
+ padding-bottom: 10px;
+
+}
+
+/* COLOROF THE ICONS*/
+.top__nav__item .k_i{
+    color: #F7940F;
+
+}
+
+.active{
+    color: #F7940F !important;
+}
+
+.let__talk__button{
+    padding: 12px 30px !important;
+    background-color: #F7940F;
+    color: #010D14;
+    transition: 1s background-color;
+}
+
+.let__talk__button:hover{
+    background-color:  #010D14;
+    color: #ffffff !important;
+}
+
+
+/* ABOUT CONTAINER SEETINGS*/
+.about__section{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-image: url(../images/konstruck/about_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ABOUT 2 CONTAINER SEETINGS*/
+.about__section1{
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-image: url(../images/konstruck/about_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about__section__item{
+    width: 45%;
+}
+
+.why__choose__use{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.why__choose__use p{
+    padding: 0px 10px;
+}
+.why__choose__use i{
+    color: #F7940F;
+}
+
+.about__section__item h3{
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.leverage{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.sub_section_about{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+}
+
+.circle__div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+}
+
+.circle__div div i{
+    background-color: #F7940F;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.circle__div div span{
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.signature{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+/*  SIGANTURE BUTTON KNOW ME */
+
+.signature a {
+    background-color:#F7940F;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#010D14;
+    transition: 1s background-color;
+}
+
+
+/*  SIGANTURE HOVER KNOW ME */
+
+.signature a:hover {
+    background-color:black;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+.signature div{
+    margin: 0 auto;
+}
+
+/* service sstyles STARTS */
+
+.service_section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    background-color: #E8EAEE;
+    height: 1200px;
+}
+
+.image__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* IMAGES OF SERVICES - CONTAINER */
+
+.image__container .image__container__item{
+    /* width: 25%; */
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Images_konstruk/services/servic_1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+/* IMAGES2 TO 6 OF SERVICES START - CONTAINER */
+
+.image__container .image__container__item1{
+    /* width: 25%; */
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Images_konstruk/services/servic_2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+
+
+
+.image__container .image__container__item2{
+    /* width: 25%; */
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Images_konstruk/services/servic_3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+.image__container .image__container__item3{
+    /* width: 25%; */
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Images_konstruk/services/servic_4.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+.image__container .image__container__item4{
+    /* width: 25%; */
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Images_konstruk/services/servic_5.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+.image__container .image__container__item5{
+    /* width: 25%; */
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Images_konstruk/services/servic_6.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+
+
+/* IMAGES 2 TO 6 OF SERVICES END - CONTAINER */
+
+
+.overlay{
+
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition:  .5s  ease;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* HOVERLAY FOR IMAGES ORIGARINAL to 6 CONATINER  OF SERVICES - CONTAINER */
+
+.image__container__item:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+
+
+/* HOVERLAY TEXT COLOR*/
+
+
+.overlay .text p{
+    color: #ffffff;
+
+}
+
+
+
+
+/* HOVERLAY FOR IMAGES1 to 6 START CONATINER  OF SERVICES - CONTAINER */
+
+.image__container__item1:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+
+.image__container__item2:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.image__container__item3:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+
+.image__container__item4:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.image__container__item5:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+
+/* HOVERLAY FOR IMAGES1 to 6  CONATINER  OF SERVICES - CONTAINER */
+
+.image__settings{
+    position: absolute;
+    height: 20%;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+
+.image__settings div{
+    font-size: 30px;
+    background-color: #F7940F;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image__settings p{
+    font-size: 20px;
+    padding: 0px 5px;
+    color-scheme: white; 
+   
+}
+
+/* .image__container__item img{
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+} */
+
+.what__we__do{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.what__we__do i{
+    color: #F7940F;
+}
+
+.what__we__do p{
+    padding: 0px 10px; 
+}
+
+.develop_h3{
+    font-size:40px;
+}
+
+
+/* service sstyles ENDS */
+
+
+
+
+
+
+
+
+
+
+    /*  HERO BANNER START */
+
+    .hero__banner{
+        height: 800px;
+      
+        /*background-image:  linear-gradient(rgba(215, 193, 193, 0.5), rgba(0,0,0,0.5)), url('../images/images_niit/niit1.jpg');*/
+        background-image:     linear-gradient(rgba(207, 215, 193, 0.5), rgba(0,0,0,0.5)),   url('../images/Images_konstruk/image_hero/konstrukhero5.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    .logo{
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0px 100px;
+        font-weight: 700;
+    
+    }
+    
+    
+    nav img{
+        width: 150px;
+       ;
+    }
+    
+    .hero__banner__text{        
+        position: absolute;
+        width: 30%;
+        top: 30%;
+        left: 6%;
+        
+    }
+    
+    .hero__banner__text h1, .hero__banner__text p {
+        /*color: #6610f2;*/
+        color: black;
+        font-size: 40px;
+        line-height: 35px;
+        font-size: 'Poppins' sans-serif;
+    
+    }
+    
+    p {
+        color: black;
+        font-size: 18px;
+        line-height: 18px;
+      
+      
+    }
+    
+    
+        /*  HERO BANNER END */
+
+
+         /*TEXT PARTNER THE P AND P4 START */
+
+.p4 p {
+    color: black;
+    font-size: 22px;
+    line-height: 18px;
+  
+  
+  }
+  
+      /*TEXT ON HERO BANNER */
+      .hero__banner__text h4{
+        color: white;
+        font-size: 29px;
+        margin-bottom: 22;
+        padding: 0;
+      
+        font-size: 'Poppins' sans-serif;
+  
+    }
+  
+  .hero__banner__text h1{
+      color: white;
+      font-size: 55px;
+      margin-bottom: 22;
+      padding: 0;
+      font-family: "Times New Roman", Times, serif;
+      line-height: 40px;
+  }
+  
+  .hero__banner__text p{
+      color: white;
+      font-size: 22px;
+      line-height: 20px;  
+      margin-bottom: 30;
+      padding: 0;
+      font-size: 'Poppins' sans-serif;
+  }
+  
+  
+  .hero__button{
+      padding: 18px 37px;
+      text-transform: initial;
+      border-radius: 30px 30px 30px 30px;
+      background: #FFD580 ;
+      color: #2e2c2c;
+      text-align: center;  
+      font-size: 18;
+      border: 2px solid orange;
+      transition: 1s background-color;
+      
+  
+      /* BUTTON SIZE
+      width:90px;
+      height:40px;
+       */
+  
+  }
+  
+    
+  /* FORMATING BUTTON HOVER   */  
+  
+  .hero__button:hover{
+      /* background: rgba(255, 255, 255, 0.2); */
+      background: black;
+      border: 2px solid white;
+      color: white;
+     }
+  
+  
+     /*SIGN UP BUTTON AND    */
+  
+     .nav .nav__menus .btn-signup{
+  
+      
+  
+       padding: 10px 25px;
+      text-transform: initial;
+      /*border-radius: 30px 30px 30px 30px;*/
+      /*background: #FFA500;*/
+      background: #FFD580;
+      color: #2e2c2c;
+      text-align: center;  
+      font-size: 18;
+      border: 2px solid black;
+      
+  
+  }
+  
+  
+   
+  /* APPLY HOVER ON SIGHN P BUTTON*/
+  
+  .nav .nav__menus .btn-signup:hover{
+     
+      background: black;
+      color : white;
+  
+       
+      /*background: #ffffff;
+      color : #2e2c2c*/
+  
+    } 
+
+        
+  /* HERO BANNER FINAL END   */  
+
+
+
+
+
+
+
+
+
+
+
+  /* MIDDLE NAV BAR HERO  START*/
+
+ 
+
+
+
+
+.hero__banner__section{
+    height: 600px;
+   /* background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/Images_konstruk/image_hero/konstrukhero2.jpg);*/
+     background-image:   linear-gradient(rgba(136, 70, 8, 0.5), rgba(83, 10, 10, 0.5)),  url('../images/Images_konstruk/image_hero/konstrukhero2.jpg');
+
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+        height: 600px;
+}
+
+.hero__banner__item h3{
+    font-size: 40px;
+    color: white;
+}
+
+/*CONTACT MORE BUTTON*/
+
+.contact__more__button{
+    padding: 12px 30px !important;
+    background-color: #F7940F;
+    color: #010D14;
+    transition: 1s background-color;
+    text-decoration: none;
+}
+
+.hero__banner__item .contact__more__button a{
+ 
+ text-decoration: none;
+}
+
+/* HOVER CONTACT MORE BUTTON*/
+
+.contact__more__button:hover{
+    background-color:  #010D14;
+    color: #ffffff !important;
+}
+
+
+/* MIDDLEHERO NAV TEXT */
+
+.hero__banner__item  p{
+  
+color: white;
+font-size: 30;
+font-weight: 44;
+
+}
+
+
+
+.strtegy__container{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+}
+
+.strategy_box{
+    background-color: rgb(114, 76, 5);
+    height: 200px;
+    width: 200px;
+    color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /*  border-radius: 30px 30px 30px 30px;*/
+   border-radius: 50px 0px 50px 0px;
+    
+}
+
+.strategy_box i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7940F;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* TEXT FOR STRATEGY BOX CONTAINER BUTTON */
+
+.hero__banner__item .strtegy__container .strategy_box h1{
+   
+    color: #F7940F !important;
+    font-size: 28px;
+    font-weight: 200px;
+    margin-left: 00px;
+  }
+
+.hero__banner__item .strtegy__container .strategy_box p{
+   
+  color: rgb(178, 218, 116) !important;
+}
+
+/* MIDDLE NAV BAR HERO  END*/
+
+/* ABOUT2 TEXT*/
+
+.about__section__item .aboutext {
+
+    
+   height: 22px;
+    font-size: 33px;
+     color: black;
+   }
+ 
+.about__section__item .aboutext h6{
+
+    
+   
+   font-size: 33    px;
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+/* SERVICE CONTAINER STARTS*/
+
+.service__container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(208, 214, 216, 0.809);
+
+}
+
+.service__item{
+    height: 300px ;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.bash_service_image{
+    width: 400px;
+    height: 300px;
+
+    /*   TRANSITION EFFECT ON IMAGE*/
+
+    /* transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1*/
+}
+
+ /*
+.bash_service_image:hover{
+    width: 410px;
+    height: 310px;
+
+}
+
+*/
+
+/* SERVICE CONTAINER ENDS*/
+
+ /*  TEXT BODY - IT SERVICE AND PARTNER POSITION CENTER START*/
+
+
+
+
+  /*  TEXT IT SERVICE POSITION CENTER END*/
+  
+
+
+
+  .p4 {
+    /*  font-family: "Brush Script MT", Cursive;*/ 
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    text-align: center;
+    font-size: 18px;
+   
+    color: rgb(90, 87, 87);
+  
+}
+  
+
+/* PARTNER CONTAINER STARTS*/
+
+.partner__container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.partner__item{
+    height: 300px ;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.bash_partner_image{
+    width: 200px;
+    height: 150px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* partner HOVER IMAGE  EFFECT */
+
+.bash_partner_image:hover{
+    width: 210px;
+    height: 160px;
+
+}
+
+/* partner CONTAINER ENDS*/
+
+
+
+/* footer */
+
+footer{
+    background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+   
+}
+
+footer li{
+   list-style-type: none;
+   padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: none;
+    
+}
+
+
+  
+/* ABOVE THE FOOTER START*/
+
+.p2 {
+    font-family: "Brush Script MT", Cursive;
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    font-size: 25px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(45, 43, 43);
+  
+  }
+
+/* ABOVE THE FOOTER END*/
+.p3 {
+       /*  font-family: "Brush Script MT", Cursive;    */ 
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    text-align: center;
+    font-size: 18px;
+
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(45, 43, 43);
+  
+  }
+
+

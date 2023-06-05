@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    /*  background-color: #60a1ca;*/
+  
+    background-color: #19A7CE
+    
+
+
+}
+
+.top__nav{
+    height: 60px;
+    background-color: #010D14;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  NAV TOP MENU ITEM */
+.top__nav__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* HOVER NAV TOP MENU ITEM */
+.top__nav__item:hover{
+    color: yellow
+  
+}
+
+.top__nav__item div{
+    padding: 0px 10px;
+}
+
+.top__nav__item i{
+    padding: 0px 10px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.lower__nav{
+    height: 120px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.lower__nav a{
+ padding: 0px 30px;
+ font-size: 18px;
+ text-decoration: none;
+ font-weight: 700;
+ color: #010D14;
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+}
+
+.lower__nav a:hover{
+    font-size: 20px;
+ color: #F7940F;
+ border-bottom: 2px solid #F7940F;
+ padding-bottom: 10px;
+
+}
+
+/* COLOROF THE ICONS*/
+.top__nav__item .k_i{
+    color: #F7940F;
+
+}
+
+.active{
+    color: #F7940F !important;
+}
+
+.let__talk__button{
+    padding: 12px 30px !important;
+    background-color: #F7940F;
+    color: #010D14;
+    transition: 1s background-color;
+}
+
+.let__talk__button:hover{
+    background-color:  #010D14;
+    color: #ffffff !important;
+}
+
+
+
+
+/* JUMIA HERO BANNER DESIGN  START*/
+
+/* ADDED JUMIA  START*/
+
+.jumia__container__item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 2px;
+    width: 600px;
+    margin-bottom: 0px;
+}
+
+
+/* ADDED JUMIA  END*/
+
+
+
+/* FORM INPUT TYPE TEXT  START*/ 
+.cd-form{
+    max-width: 640px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 15px 25px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+
+
+  input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+
+
+  .inputWithIcon input[type="text"] {
+    padding-left: 40px;
+  }
+
+
+  .inputWithIcon {
+    position: relative;
+  }
+   
+  .inputWithIcon i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+
+
+  .inputWithIcon input[type="text"]:focus + i {
+    color: dodgerBlue;
+  }
+
+
+  .inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+  }
+
+
+  .inputWithIcon.inputIconBg input[type="text"]:focus + i {
+    color: #fff;
+    background-color: dodgerBlue;
+  }
+
+
+  
+/* FORM INPUT TYPE TEXT END*/ 

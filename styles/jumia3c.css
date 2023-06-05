@@ -1,0 +1,2951 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    /*  background-color: #60a1ca;*/
+  
+    background-color: #19A7CE
+    
+
+
+}
+
+.top__nav{
+    height: 60px;
+    background-color: #010D14;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  NAV TOP MENU ITEM */
+.top__nav__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* HOVER NAV TOP MENU ITEM */
+.top__nav__item:hover{
+    color: yellow
+  
+}
+
+.top__nav__item div{
+    padding: 0px 10px;
+}
+
+.top__nav__item i{
+    padding: 0px 10px;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 40px;
+}
+
+
+/* TOP NAV RESPONSIVESNES PHONE 600PX MSMALL PHONES START   USED */
+
+/* @media screen and (min-width:600px){    FOR TAB*/
+   
+/* @media only screen and (min-width:992px){      FOR LARGE  SCREEN*/
+    
+@media screen and (max-width:600px){
+    .top__nav{
+        height: 60px;
+      /*  background-color: #010D14;*/
+
+       background-color: rgb(6, 6, 92);
+        /* width: 100%; */
+
+       width: 1700px; 
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .top__nav__item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .top__nav__item:hover{
+        color: yellow
+      
+    }
+    
+    .top__nav__item div{
+        padding: 0px 10px;
+    }
+    
+    .top__nav__item i{
+        padding: 0px 10px;
+    }
+    
+    .logo{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+
+
+
+    /* LOWER NAV RESPONSIVENESS  ITEM START */
+
+.lower__nav{
+    height: 120px;
+    width: 1660px;
+
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.lower__nav a{
+ padding: 0px 30px;
+ font-size: 18px;
+ text-decoration: none;
+ font-weight: 700;
+ color: #010D14;
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+}
+    
+}
+
+/* TOP NAV RESPONSIVESNES PHONE 600PX MSMALL PHONES END */
+
+
+
+
+
+/* TOP NAV RESPONSIVESNES TAB  MIN 600PX MSMALL PHONES START   USED */
+  
+/* @media only screen and (min-width:992px){      FOR LARGE  SCREEN*/
+    
+  
+        @media screen and (min-width:600px){
+        .top__nav{
+            height: 60px;
+          /*  background-color: #010D14;*/
+    
+           background-color: rgb(7, 128, 53);
+            width: 1700px; 
+
+           /*width: 100%; */
+    
+            color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .top__nav__item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+    
+        .top__nav__item:hover{
+            color: yellow
+          
+        }
+        
+        .top__nav__item div{
+            padding: 0px 10px;
+        }
+        
+        .top__nav__item i{
+            padding: 0px 10px;
+        }
+        
+        .logo{
+            width: 200px;
+            margin-left: 40px;
+        }
+
+
+    
+    /* LOWER NAV RESPONSIVENESS  ITEM START */
+
+.lower__nav{
+    height: 120px;
+    width: 1660px;
+    
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.lower__nav a{
+ padding: 0px 30px;
+ font-size: 18px;
+ text-decoration: none;
+ font-weight: 700;
+ color: #010D14;
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+}
+
+        
+    }
+    
+    /* TOP NAV RESPONSIVESNES PHONE MIN 600PX   TAB END */
+
+
+
+
+
+    /* TOP NAV RESPONSIVESNES LARGE SCREEN  MIN 900PX MSMALL PHONES START   USED */
+  
+/* @media only screen and (min-width:992px){      FOR LARGE  SCREEN*/
+    
+  
+    @media only screen and (min-width:992px){ 
+        .top__nav{
+            height: 60px;
+          /*  background-color: #010D14;*/
+    
+           background-color: rgb(0, 0, 0);
+             width: 1750px;
+
+           /*width: 100%;   */
+    
+            color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .top__nav__item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    
+    
+        .top__nav__item:hover{
+            color: yellow
+          
+        }
+        
+        .top__nav__item div{
+            padding: 0px 10px;
+        }
+        
+        .top__nav__item i{
+            padding: 0px 10px;
+        }
+        
+        .logo{
+            width: 200px;
+            margin-left: 40px;
+        }
+
+        
+    /* LOWER NAV RESPONSIVENESS  ITEM START */
+
+.lower__nav{
+    height: 120px;
+    width: 1710px;
+    
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.lower__nav a{
+ padding: 0px 30px;
+ font-size: 18px;
+ text-decoration: none;
+ font-weight: 700;
+ color: #010D14;
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+}
+
+        
+    }
+    
+   
+    /* TOP NAV RESPONSIVESNES LARGE SCREEN  MIN 900PX MSMALL PHONES START   END */
+
+
+
+/* LOWER NAV TOP MENU ITEM START */
+
+.lower__nav{
+    height: 120px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.lower__nav a{
+ padding: 0px 30px;
+ font-size: 18px;
+ text-decoration: none;
+ font-weight: 700;
+ color: #010D14;
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+}
+
+.lower__nav a:hover{
+    font-size: 20px;
+ color: #F7940F;
+ border-bottom: 2px solid #F7940F;
+ padding-bottom: 10px;
+
+}
+
+/* COLOR OF THE ICONS AND ITS SIZE */
+.top__nav__item .k_i{
+    color: #F7940F;
+   /* font-size: 20px;*/
+}
+
+
+/* COLOR OF THE ICONS AND ITS SIZE */
+.top__nav__item .k_i{
+    color: #F7940F;
+   /* font-size: 20px;*/
+}
+
+/* COLOR OF THE ICONS AT FOOTER LEFT  AND ITS SIZE */
+footer .k_3{
+    color: #F7940F;
+   /* font-size: 20px;*/
+   font-size: 20px;
+}
+
+footer .k_3:hover{
+    color: white;
+   /* font-size: 20px;*/
+}
+
+
+
+/* ALL ICONS COLOR OF THE ICONS AND ITS SIZE */
+/*
+
+i {
+
+  font-size: 18px;  
+}
+
+*/
+
+
+.active{
+    color: #F7940F !important;
+}
+
+.let__talk__button{
+    padding: 16px 30px !important;
+    background-color: #F7940F;
+    color: white !important; 
+    transition: 1s background-color;
+}
+
+.let__talk__button:hover{
+    background-color:  #010D14;
+    color: #ffffff !important;
+}
+
+/* LOWER NAV TOP MENU ITEM END */
+
+
+
+
+/* JUMIA HERO BANNER DESIGN  START*/
+
+/* ADDED JUMIA  START*/
+
+.jumia__container__item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 2px;
+    width: 600px;
+    margin-bottom: 0px;
+}
+
+
+/* ADDED JUMIA  END*/
+
+
+
+.jumia__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 1613px;
+    margin-left: 70px;
+    
+
+   /*  background-color: white;*/
+}
+
+.jumia__sub__container img{
+    width: 200px;
+   
+}
+
+.jumia__sub__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+   /*   width: 15600px;*/
+}
+
+/* .jumia__container__item{
+    flex: 1;
+} */
+
+.jumia__hero{
+    width: 900px;
+}
+
+.jumia__sub__2 , .jumia__sub__1{
+    margin: 5px;
+    /* padding: 10px; */
+}
+
+.jumia__sub__1 img{
+    padding : 10px;
+}
+
+
+.jumia__sub__2 img{
+    padding : 10px;
+}
+
+
+/* JUMIA HERO BANNER DESIGN END */
+
+
+
+
+
+
+/* JUMIA SIDE RIGHT HERO BAR START */
+
+.jumia__container__item1{
+  /*   background-color: #19A7CE;*/
+    background-color: rgb(178, 197, 224);
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  margin-right: 9px;
+  margin-left: 0px;
+  
+   
+}
+
+.jumia__container__item1 li{
+   list-style-type: none;
+   padding: 1px;
+   margin-left: 0px;
+}
+
+.jumia__container__item1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-transform: none;
+    align-items: flex-start;
+    margin-left: 0px;
+    
+}
+
+/* JUMIA SIDE RIGHT HERO BAR END */
+
+
+/* JUMIA PRODUCT1 CONTAINER STARTS*/
+
+.jumia_product__container{
+    height: 230px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 20px;
+    margin-right: 1000px;
+    padding-top: 20px;
+    margin-left: 70px;
+
+}
+
+.product__item{
+    height: 230px ;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    
+}
+
+
+
+.jumia_product_image{
+    width: 170px;
+    height: 170px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT HOVER IMAGE  EFFECT */
+
+.jumia_product_image:hover{
+    width: 173px;
+    height: 173px;
+
+}
+
+
+
+
+.product__item p{
+
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+    
+}
+
+/* JUMIA PRODUCT1 CONTAINER ENDS*/
+
+
+
+
+
+/* JUMIA PRODUCT2 CONTAINER STARTS*/
+
+.jumia_product__container2{
+    height: 317px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 20px;
+    margin-right: 1000px;
+    padding-top: 20px;
+    margin-left: 70px;
+
+}
+
+.product__item2{
+    padding-top: 4px;
+    height: 270px ;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.jumia_product_image2{
+    width: 200px;
+    height: 230px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT2  HOVER IMAGE  EFFECT */
+
+.jumia_product_image2:hover{
+    width: 204px;
+    height: 234px;
+
+}
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item2 p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+
+    
+}
+
+
+.product__item2 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+
+    
+}
+
+
+/* JUMIA PRODUCT2 CONTAINER ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* JUMIA PRODUCT2A TEXT CONTAINER STARTS*/
+
+.jumia_product__container2a{
+    height: 40px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 20px;
+
+}
+
+.product__item2a{
+    padding-top: 0px;
+    height: 40px ;
+    margin: 10px;
+    text-align: left;
+    width: 400px;
+    padding-bottom: 10px;
+   
+    
+}
+
+
+
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item2a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+
+    
+}
+
+
+.product__item2 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+
+    
+}
+
+
+
+/* JUMIA PRODUCT2A CONTAINER ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+/* JUMIA PRODUCT3 CONTAINER STARTS*/
+
+.jumia_product__container3{
+    height: 385px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+
+}
+
+.product__item3{
+    padding-top: 4px;
+    height: 270px ;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.jumia_product_image3{
+    width: 200px;
+    height: 230px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT3  HOVER IMAGE  EFFECT */
+
+.jumia_product_image3:hover{
+    width: 204px;
+    height: 234px;
+
+}
+
+/* PRODUCT3A   IMAGE UNDER EFFECT */
+.jumia_product_image3a{
+    width: 200px;
+    height: 15px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item3 p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item3 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT3 CONTAINER ENDS*/
+
+
+
+
+/* JUMIA PRODUCT3A TEXT CONTAINER STARTS*/
+
+.jumia_product__container3a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+   /* background-color: #EB455F; */
+   background-color: red;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item3a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item3a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: white;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item3a  .k_i{
+    color: #F7940F;
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item3b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item3b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: white;
+
+}
+
+
+.product__item3a p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    /* font-family: "Roboto", sans-serif;*/
+
+    
+}
+
+
+/* JUMIA PRODUCT3A CONTAINER ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+/* JUMIA PRODUCT4 CONTAINER STARTS*/
+
+.jumia_product__container4{
+    height: 385px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+
+}
+
+.product__item4{
+    padding-top: 4px;
+    height: 270px ;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.jumia_product_image4{
+    width: 200px;
+    height: 230px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT4  HOVER IMAGE  EFFECT */
+
+.jumia_product_image4:hover{
+    width: 204px;
+    height: 234px;
+
+}
+
+/* PRODUCT4A   IMAGE UNDER EFFECT */
+.jumia_product_image4a{
+    width: 200px;
+    height: 15px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item4 p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item4 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT4 CONTAINER ENDS*/
+
+
+
+
+/* JUMIA PRODUCT4A TEXT CONTAINER STARTS*/
+
+.jumia_product__container4a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+   /* background-color: #EB455F; */
+   /*background-color: rgb(16, 212, 68);*/
+    background-color:#59CE8F;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item4a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item4a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: white;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item4a  .k_i{
+    color: #F7940F;
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item4b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item4b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: white;
+
+}
+
+/* 
+.product__item4a p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    /* font-family: "Roboto", sans-serif;
+
+    
+}
+*/
+
+/* JUMIA PRODUCT4A CONTAINER ENDS*/
+
+
+
+
+
+
+
+
+
+
+/* JUMIA PRODUCT5 CONTAINER STARTS*/
+
+.jumia_product__container5{
+    height: 385px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+
+}
+
+.product__item5{
+    padding-top: 4px;
+    height: 270px ;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.jumia_product_image5{
+    width: 200px;
+    height: 230px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT4  HOVER IMAGE  EFFECT */
+
+.jumia_product_image5:hover{
+    width: 204px;
+    height: 234px;
+
+}
+
+/* PRODUCT4A   IMAGE UNDER EFFECT */
+.jumia_product_image5a{
+    width: 200px;
+    height: 15px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item5 p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item5 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT5 CONTAINER ENDS*/
+
+
+
+
+/* JUMIA PRODUCT5A TEXT CONTAINER STARTS*/
+
+.jumia_product__container5a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+   /* background-color: #EB455F; */
+   background-color: #FFE5CA;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item5a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item5a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: black;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item5a  .k_i{
+    color: #F7940F;
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item5b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item5b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: black;
+
+}
+
+
+
+/* JUMIA PRODUCT5A CONTAINER ENDS*/
+
+
+
+
+
+
+
+
+/* JUMIA PRODUCT6A TEXT CONTAINER STARTS*/
+
+
+
+.jumia_product__container6{
+    height: 300px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+
+}
+
+.product__item6{
+    padding-top: 4px;
+    height: 250px ;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.jumia_product_image6{
+    width: 220px;
+    height: 230px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT6  HOVER IMAGE  EFFECT */
+
+.jumia_product_image6:hover{
+    width: 224px;
+    height: 234px;
+
+}
+
+/* PRODUCT6A   IMAGE UNDER EFFECT */
+.jumia_product_image6a{
+    width: 240px;
+    height: 15px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item6 p{
+
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item6 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT6 CONTAINER ENDS*/
+
+
+
+
+/* JUMIA PRODUCT6A TEXT CONTAINER STARTS*/
+
+.jumia_product__container6a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+   /* background-color: #EB455F; */
+   background-color: red;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item6a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item6a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: white;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item6a  .k_i{
+    color: #F7940F;
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item6b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item6b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: white;
+
+}
+
+
+.product__item6a p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    /* font-family: "Roboto", sans-serif;*/
+
+    
+}
+
+
+/* JUMIA PRODUCT3A CONTAINER ENDS*/
+
+
+
+
+
+
+
+/* FOOTER STARTS */
+
+footer{
+    background-color: black;
+  height: 490px;
+  width: 1750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 0px;
+
+   
+}
+
+footer li{
+   list-style-type: none;
+   padding: 5px;
+   margin-top: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: none;
+
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+
+
+
+
+footer div{
+    padding: 0px 10px;
+}
+
+footer i{
+    padding: 0px 10px;
+    size: 80px;
+}
+
+.logo{
+    width: 200px;
+}
+
+
+footer:hover{
+    color: yellow
+}
+
+/* COLOROF THE ICONS*/
+footer .k_i{
+    color: #F7940F;
+   
+
+}
+
+
+footer .k_i:hover{
+    color: white;
+   
+}
+
+footer .k_2{
+    color: white;
+    font-size: 20px;
+
+}
+
+footer .k_2:hover{
+    color: #F7940F;
+
+}
+
+
+
+/* TEXT BOX AND BUTTON */
+/* 
+input,
+button {
+  font-size: 1em;
+  padding: 1em;*/
+ /*  width: 100%;*/
+ /* width: 150px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+;*/
+
+
+
+/* TEXT ONLY */
+
+.footer_input {
+  font-size: 1em;
+  padding: 1em;
+  /*width: 100%;*/
+   width: 220px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+
+}
+
+
+
+/*  footer button ONLY start */
+
+
+.footer_button {
+  font-size: 1em;
+  padding: 1em;
+ /*  width: 100%;*/
+  width: 100px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+
+   /*background-color: #c7940a;*/
+  
+  background-color: black;
+  color: #ffffff;
+
+  border: 2px solid white;
+  transition: 1s background-color
+
+}
+
+
+/* footer button transition only */
+
+.footer_button:hover {
+    font-size: 1em;
+    padding: 1em;
+   /*  width: 100%;*/
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+  
+    background-color: black;
+    color: #c7940a;
+
+    border: 2px solid #c7940a   ;
+  }
+  
+  /*  footer button ONLY end */
+
+
+
+
+  /*  footer button2 ONLY start */
+
+
+.footer_button2 {
+    font-size: 0.7em;
+    padding: 1em;
+   /*  width: 100%;*/
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+  
+     /*background-color: #c7940a;*/
+    
+    background-color: black;
+    color: #ffffff;
+  
+    border: 2px solid white;
+    transition: 1s background-color
+  
+  }
+  
+  
+  /* footer button transition only */
+  
+  .footer_button2:hover {
+      font-size: 0.7em;
+      padding: 1em;
+     /*  width: 100%;*/
+      width: 100px;
+      border-radius: 5px;
+      margin-bottom: 0px;
+    
+      background-color: black;
+      color: #c7940a;
+  
+      border: 2px solid #c7940a   ;
+    }
+    
+    /*  footer button ONLY end */
+
+/* FOOTER ENDS  PT1*/
+
+
+
+
+
+
+
+
+
+/*  INPUT TEXT AND ICON FORM INPUT TYPE TEXT  START*/ 
+/*
+.cd-form{
+    max-width: 640px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 15px 25px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+*/ 
+
+input[type="text"] {
+    width: 60%;
+    height: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+
+
+  input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+
+
+  .inputWithIcon input[type="text"] {
+    padding-left: 40px;
+  }
+
+
+  .inputWithIcon {
+    position: relative;
+  }
+   
+  .inputWithIcon i {
+    position: absolute;
+    left: 0;
+     top: 16px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+
+
+  .inputWithIcon input[type="text"]:focus + i {
+    color: lightgrey;
+  }
+
+
+  .inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+  }
+
+
+  .inputWithIcon.inputIconBg input[type="text"]:focus + i {
+    color: #fff;
+    background-color: dodgerBlue;
+  }
+
+
+  
+/* INPUT TEXT AND ICON FORM INPUT TYPE TEXT  END*/ 
+
+
+
+
+
+
+/*  INPUT TEXT FOR LOWER NAVE AND ICON FORM INPUT TYPE TEXT  START*/ 
+
+input[type="text1"] {
+    width: 180%;
+    height: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+  input[type="text1"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+
+
+
+
+
+  .inputWithIcon1 input[type="text1"] {
+    padding-left: 40px;
+  }
+
+
+  .inputWithIcon1 {
+    position: relative;
+  }
+   
+  .inputWithIcon1 i {
+    position: absolute;
+    left: 0;
+     top: 16px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+
+
+  .inputWithIcon1 input[type="text1"]:focus + i {
+    color: lightgrey;
+  }
+
+
+  .inputWithIcon1.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+  }
+
+
+  .inputWithIcon1.inputIconBg input[type="text1"]:focus + i {
+    color: #fff;
+    background-color: dodgerBlue;
+  }
+
+
+
+
+  /* FOOTER INPUT 3 TEXT ONLY */
+
+.footer_input3 {
+    font-size: 1em;
+    padding: 2em;
+    /*width: 100%;*/
+     width: 220px;
+
+    
+    border-radius: 5px;
+    margin-bottom: 0px;
+  
+  }
+
+
+
+
+    /*  footer button3 ONLY start */
+
+
+.search_button3 {
+    font-size: 1.0em;
+    padding: 1em;
+   /*  width: 100%;*/
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+  
+     /*background-color: #c7940a;*/
+    
+    background-color: black;
+    color: #ffffff;
+  
+    border: 2px solid white;
+    transition: 1s background-color
+  
+  }
+  
+  
+  /* footer button transition only */
+  
+  .search_button3:hover {
+      font-size: 1.0em;
+      padding: 1em;
+     /*  width: 100%;*/
+      width: 100px;
+      border-radius: 5px;
+      margin-bottom: 0px;
+    
+      background-color: black;
+      color: #c7940a;
+  
+      border: 2px solid #c7940a   ;
+    }
+    
+    /*  footer button ONLY end */
+  
+  
+/* INPUT TEXT AND ICON FOR LOWER NAV FORM INPUT TYPE TEXT  END*/ 
+
+
+
+
+
+
+
+
+/* FOOTER ENDS  PT2 FINAL*/
+
+
+
+
+
+
+
+
+
+
+/* JUMIA PRODUCT7 CONTAINER STARTS*/
+
+.jumia_product__container7{
+    height: 400px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+
+}
+
+.product__item7{
+    padding-top: 4px;
+    height: 400px ;
+    width: 1560px;
+    margin: 10px;
+    text-align: center;
+   
+    padding-bottom: 0px;
+    
+}
+
+
+
+.jumia_product_image7{
+    width: 1560px;
+    height: 400px ;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT7  HOVER IMAGE  EFFECT */
+
+.jumia_product_image7:hover{
+    width: 1560px;
+    height: 400px ;
+
+}
+
+/* PRODUCT7A   IMAGE UNDER EFFECT */
+.jumia_product_image7a{
+    width: 200px;
+    height: 15px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* TEXT 7 UNDER IMAGE   EFFECT */
+
+.product__item7 p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item7 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT7 CONTAINER ENDS*/
+
+
+
+
+/* JUMIA PRODUCT7A TEXT CONTAINER STARTS*/
+
+.jumia_product__container7a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    background-color: #C7E9B0 ;
+   /*background-color: #FFE5CA;*/
+
+
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item7a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item7a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: black;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item7a  .k_i{
+    color: #F7940F;
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item7b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item7b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: black;
+
+}
+
+
+
+/* JUMIA PRODUCT5A CONTAINER ENDS*/
+
+
+
+
+
+/* GRID PART  PRODUCT5A CONTAINER ENDS*/
+
+  .grid-container{
+    display: grid;
+    grid-template-areas: 'myArea myArea . . .';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+    height: 317px;
+    width: 1560px;
+
+    margin-right: 1000px;
+    padding-top: 10px;
+    margin-left: 60px;
+
+  }
+
+  .grid-container > div{
+     background-color: rgba(255, 255, 255, 0.8);
+     text-align: center;
+     padding: 10px 0px;
+     font-size: 30px
+
+  }
+
+
+  
+/* GRID PART2 sub section  PRODUCT5A CONTAINER ENDS*/
+
+.grid-container2{
+    display: grid;
+    grid-template-areas: 'myArea myArea . . .';
+    grid-gap: 10px;
+   background-color: #2196F3;
+    padding: 10px;
+
+    height: 180px;
+    width: 1560px;
+
+    margin-right: 1000px;
+    padding-top:    20px;
+    margin-left: 60px;
+
+  }
+
+  .grid-container2 > div{
+     background-color: rgba(255, 255, 255, 0.8);
+     text-align: center;
+     padding: 10px 0px;
+     font-size: 30px
+
+  }
+
+
+    /* PRODUCT8c  HOVER IMAGE 8  EFFECT */
+
+.jumia_product_image8c{
+    /*  width: 229px; */
+    width: 244px;
+    height: 150px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT8c  HOVER IMAGE  EFFECT */
+
+.jumia_product_image8c:hover{
+    width: 246px;
+    height: 152px;
+}
+
+
+
+   /* CSS PART2 GRID PRODUCT 8 THIS PART SHOWS THE SECTION */
+
+
+   .main2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 0.2px;
+    /*background-color: black;*/
+    background-color: white;
+    grid-gap: 10px;
+    padding: 20px;
+    justify-content: center;
+
+    margin-left: 70px;
+    margin-right: 57px;
+
+  }
+
+  .num2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgrey;*/
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+  }
+
+
+  /* PRODUCT8  HOVER IMAGE 8  EFFECT */
+
+  .jumia_product_image8{
+    width: 229px;
+    height: 150px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT6  HOVER IMAGE  EFFECT */
+
+.jumia_product_image8:hover{
+    width: 232px;
+    height: 152px;
+}
+
+
+   /* CSS PART3 GRID PRODUCT 8 THIS PART SHOWS THE SECTION */
+
+
+   .main3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 85px 15px 0.2px;
+    /*background-color: black;*/
+    background-color: white;
+    grid-gap: 10px;
+    padding: 20px;
+    justify-content: center;
+
+    margin-left: 70px;
+    margin-right: 57px;
+
+  }
+
+  .num3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgrey;*/
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+  }
+
+
+  /* PRODUCT8  HOVER IMAGE 8  EFFECT */
+
+.jumia_product_image8{
+    width: 229px;
+    height: 150px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT6  HOVER IMAGE  EFFECT */
+
+.jumia_product_image8:hover{
+    width: 232px;
+    height: 152px;
+}
+
+
+
+
+
+/* JUMIA PRODUCT9 CONTAINER STARTS*/
+
+.jumia_product__container9{
+    height: 340px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+
+}
+
+.product__item9{
+    padding-top: 4px;
+    height: 270px ;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.jumia_product_image9{
+    width: 220px;
+    height: 230px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT9  HOVER IMAGE  EFFECT */
+
+.jumia_product_image9:hover{
+    width: 222px;
+    height: 234px;
+
+}
+
+/* PRODUCT9A   IMAGE UNDER EFFECT */
+.jumia_product_image9a{
+    width: 200px;
+    height: 15px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item9 p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item9 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT9 CONTAINER ENDS*/
+
+
+
+
+/* JUMIA PRODUCT9A TEXT CONTAINER STARTS*/
+
+.jumia_product__container9a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+   /* background-color: #EB455F; */
+   /*background-color: #FFE5CA; */
+
+   background-color: #C7E9B0 ;
+   
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item9a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item9a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: black;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item9a  .k_i{
+    color: #F7940F;
+    
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item9b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item9b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: black;
+
+}
+
+/* JUMIA PRODUCT9A CONTAINER ENDS*/
+
+
+
+
+
+/* JUMIA PRODUCT10A TEXT CONTAINER STARTS*/
+
+.jumia_product__container10a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+   /* background-color: #C7E9B0 ; */
+   /* background-color: #FFE5CA;*/
+   background-color: #FF6000;
+
+
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item10a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item10a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: white;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item10a  .k_3{
+  /*  color: #F7940F; */
+
+    color: white;
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item10b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item10b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: black;
+
+}
+
+
+
+/* JUMIA PRODUCT 10A CONTAINER ENDS*/
+
+
+
+
+
+
+
+/* JUMIA PRODUCT 10 n note the 6th image is related to  css 6 imageTEXT CONTAINER STARTS*/
+
+
+
+.jumia_product__container10{
+    height: 300px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(178, 197, 224); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+
+}
+
+.product__item10{
+    padding-top: 4px;
+    height: 250px ;
+    margin: 10px;
+    text-align: center;
+    width: 220px;
+    padding-bottom: 10px;
+  
+    
+}
+
+
+
+.jumia_product_image10{
+    width: 240px;
+    height: 230px;
+    padding-bottom: 0px;
+ 
+
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+
+/* PRODUCT6  HOVER IMAGE  EFFECT */
+
+.jumia_product_image10:hover{
+    width: 242px;
+    height: 234px;
+
+}
+
+/* PRODUCT6A   IMAGE UNDER EFFECT */
+.jumia_product_image10a{
+    width: 240px;
+    height: 15px;
+    padding-bottom: 0px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item10 p{
+
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item10 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT6 CONTAINER ENDS*/
+
+
+
+
+
+
+/* JUMIA PRODUCT11A TEXT CONTAINER STARTS*/
+
+.jumia_product__container11a{
+    height: 27px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+   /* background-color: #EB455F; */
+   /* background-color: #FFE5CA; */
+
+   /*background-color: #C7E9B0 ;*/
+   background-color: #FF6000;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.product__item11a{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item11a p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   color: white;
+
+}
+
+
+/* COLOROF THE ICONS*/
+
+
+ .product__item11a  .k_3{
+   /* color: #F7940F; */
+    color: white;
+    
+}
+
+
+.active{
+    color: #F7940F !important;
+}
+
+
+.product__item11b{
+    padding-top: 0px;
+    height: 17px ;
+    margin: 10px;
+    text-align: left;
+    width: 350px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item11b p{
+
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-left: 30px;
+   margin-right: 20px;
+   color: white;
+}
+/* JUMIA PRODUCT 11A CONTAINER ENDS*/
+
+
+
+
+
+
+
+
+/* JUMIA PRODUCT 12 CONTAINER STARTS*/
+
+.jumia_product__container12{
+    height: 980px;
+    width: 1560px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: left;
+   /*  background-color: rgb(178, 197, 224);  */
+   /*  background-color: white; */
+   background-color: rgb(216, 226, 240); 
+    margin-left: 70px;
+    margin-right: 1000px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+
+.product__item12{
+    padding-top: 0px;
+    height: 940px ;
+    margin: 10px;
+    text-align: left;
+    width: 1560px;
+    padding-bottom: 40px;
+    
+}
+
+
+
+
+/* TEXT UNDER IMAGE   EFFECT */
+
+.product__item12 h1{
+     font-size: 20px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item12 p{
+
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.product__item12 p s{
+
+    text-align: left;
+    color: grey;
+   /*  font-size: small;*/
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+/* JUMIA PRODUCT9 CONTAINER ENDS*/
+
+
+
+
+
+        /* BUTTON THAT HAS ICON AND TEXT WITHIN  IT  START */
+        .ijan_btn{
+            background-color: red;
+            padding: 10px 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .ijan_btn div p{
+            line-height: 0;
+        }
+
+        .ijan_btn i{
+            font-size: 60px;
+        }
+
+        .ijan_btn:hover{
+            background-color: purple;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .empty_search{
+            font-family: fontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+        }
+
+
+        /* BUTTON THAT HAS ICON AND TEXT WITHIN  IT  END */
+
+
+
+
+/* FOOTER NEW 2 JUYTRONTAINER ENDS*/
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.main div{
+    width: 25%;
+    background-color: green;
+    height: 400px;
+    margin: 10px;
+}
+
+.footer_1{
+    display: flex;
+    flex-direction: row;
+    
+    /* height: 200px; */
+    width: 17000px;
+    height: 504px;
+
+    /*background-color: black;  */
+    background-image: /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),*/ url('../images/images_jumia/image_products/afooterimage.jpeg');
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: space-around;
+    align-content: center;
+    
+    margin-right: 0px;
+    margin-top: 0px;
+
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.footer_2{
+    display: flex;
+    flex-direction: row;
+    
+    /*height: 200px; */
+    width: 1750px;
+    height: 504px;
+
+    background-color: rgb(77, 78, 77);
+    justify-content: space-around;
+    align-content: center;
+    
+    margin-right: 0px;
+    margin-top: 0px;
+
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer_3{
+    display: flex;
+    flex-direction: row;
+    
+    /*height: 200px; */
+    width: 1750px;
+    height: 504px;
+
+    background-color: rgb(108, 112, 108);
+    justify-content: space-around;
+    align-content: center;
+    
+    margin-right: 0px;
+    margin-top: 0px;
+
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+
+/*
+
+.footer_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+    background-color: grey;
+    color: white;
+    
+
+    width: 1750px;
+    height: 704px;
+
+    margin-right: 0px;
+}
+
+
+
+
+
+
+*/
+
+footer{
+    background-color: rgb(219, 19, 19);
+  height: 390px;
+  width: 1750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  padding-top: 0px;
+
+   
+}

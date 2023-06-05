@@ -1,0 +1,407 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 19px;
+   /* font-family: "Times New Roman", serif;*/
+
+    font-family: "Roboto", sans-serif;
+    color: rgb(90, 87, 87);
+    
+}
+
+/*  MARGIN ON TOP OF THE NAV */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+/*  FIRST  NAV BAR HEADER */
+
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+    justify-content: space-between;
+  
+  }
+  
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-one{
+    background-color: black;
+    color: white;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .left > div + div{
+    margin-left: 40px;
+  }
+  
+  .right{
+    margin-left: 40px;
+  }
+  
+  .left > div:hover,
+  .right > div:hover{
+    color: black;
+    transition: all 0.5x;
+  }
+  
+  span{
+    margin-left: 5px;
+  }
+
+
+
+    /*  SECOND NAV BAR HEADER */
+
+header{
+   
+    background-color:  #007bff;
+    /*   background-color: rgb(147, 176, 213);*/
+    height: 150px;
+    /* line-height: 80px; */
+    width: 100%;
+}
+
+.nav__menus{
+    float: right;
+    margin-right: 30px;
+   
+   /*   margin: 0;*/
+    /* padding: 0;*/
+  
+}
+
+.logoimage{
+    float: left;
+    margin-left: 100px;
+   
+   /*   margin: 0;*/
+    /* padding: 0;*/
+  
+}
+
+.nav__menus li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+    
+}
+
+.nav__menus li a {
+    color: white;
+    text-decoration: none;
+    text-transform: initial;
+    font-size: 17px;
+    padding: 7px 13px;
+
+    /*   TRANSITION EFFECT ON NAV MENU*/
+
+    transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1s;
+
+
+}
+
+
+    /*  HOVER  TRANSITION EFFECT ON NAV MENU*/
+
+.nav__menus li a:hover{
+    /* color: rgb(114, 38, 200);*/
+   /*  text-transform: lowercase; */
+    font-size: 19px;
+    /* text-decoration: dashed; */
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+.hero__banner{
+    height: 800px;
+   /*background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/images_niit/niit1.jpg');*/
+    /*background-image:  linear-gradient(rgba(215, 193, 193, 0.5), rgba(0,0,0,0.5)), url('../images/images_niit/niit1.jpg');*/
+    background-image: /* linear-gradient(rgba(215, 193, 193, 0.5), rgba(0,0,0,0.5)), */url('../images/images_niit/niit1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-weight: 700;
+
+}
+
+
+nav img{
+    width: 150px;
+   ;
+}
+
+.hero__banner__text{        
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 65%;
+    
+}
+
+.hero__banner__text h1, .hero__banner__text p {
+    /*color: #6610f2;*/
+    color: black;
+    font-size: 40px;
+    line-height: 35px;
+    font-size: 'Poppins' sans-serif;
+
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    line-height: 18px;
+    font-size: 'Poppins' sans-serif;
+
+}
+
+
+.hero__banner__text h1{
+    font-size: 40px;
+}
+
+.hero__banner__text p{
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    font-size: 'Poppins' sans-serif;
+}
+
+
+.hero__button{
+    padding: 18px 37px;
+    text-transform: initial;
+    border-radius: 30px 30px 30px 30px;
+    background: #ffffff;
+    color: #2e2c2c;
+    text-align: center;  
+    font-size: 18;
+    border: 2px solid black;
+    
+
+    /* BUTTON SIZE
+    width:90px;
+    height:40px;
+     */
+
+}
+
+  
+/* FORMATING BUTTON HOVER   */
+
+.hero__button:hover{
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: black;
+    border: 2px solid white;
+    color: white;
+   }
+
+
+   /*SIGN UP BUTTON AND    */
+
+   .nav .nav__menus .btn-signup{
+
+
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+
+}
+
+
+
+ 
+/* APPLY HOVER ON SIGHN P BUTTON*/
+
+.nav .nav__menus .btn-signup{
+   
+    background: #ffffff;
+    color : #2e2c2c
+
+  } 
+
+
+
+
+
+
+/* SERVICE CONTAINER STARTS*/
+
+.service__container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.service__item{
+    height: 300px ;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.bash_service_image{
+    width: 400px;
+    height: 300px;
+
+    /*   TRANSITION EFFECT ON IMAGE*/
+
+    /* transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1*/
+}
+
+ /*
+.bash_service_image:hover{
+    width: 410px;
+    height: 310px;
+
+}
+
+*/
+
+/* SERVICE CONTAINER ENDS*/
+
+
+
+
+  /*  TEXT BODY - IT SERVICE AND PARTNER POSITION CENTER START*/
+
+
+  .p4 {
+    /*  font-family: "Brush Script MT", Cursive;*/ 
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    text-align: center;
+    font-size: 18px;
+   
+    color: rgb(90, 87, 87);
+  
+}
+
+  /*  TEXT IT SERVICE POSITION CENTER END*/
+  
+
+
+/* PARTNER CONTAINER STARTS*/
+
+.partner__container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.partner__item{
+    height: 300px ;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.bash_partner_image{
+    width: 200px;
+    height: 150px;
+
+ transition: color 1s, text-transform 1s, font-size 1s, text-decoration 1
+}
+
+
+/* partner HOVER IMAGE  EFFECT */
+
+.bash_partner_image:hover{
+    width: 210px;
+    height: 160px;
+
+}
+
+/* partner CONTAINER ENDS*/
+
+
+
+/* footer */
+
+footer{
+    background-color: rgb(7, 57, 121);
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+   
+}
+
+footer li{
+   list-style-type: none;
+   padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: none;
+    
+}
+
+
+  
+/* ABOVE THE FOOTER START*/
+
+.p2 {
+    font-family: "Brush Script MT", Cursive;
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    font-size: 25px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(7, 57, 121);
+  
+  }
+
+/* ABOVE THE FOOTER END*/
+.p3 {
+       /*  font-family: "Brush Script MT", Cursive;    */ 
+    /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+    text-align: center;
+    font-size: 18px;
+
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(7, 57, 121);
+  
+  }
+
+

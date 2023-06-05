@@ -1,0 +1,252 @@
+
+
+/* NAV CSS*/
+
+/*
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+ /* // Navbar */
+.nav-bar {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33, 33, 33, 0.9);
+    color: white;
+}
+
+.nav-bar > ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar > ul > li {
+    list-style: none;
+    color: white;
+    padding: 0 2rem;
+}
+
+.nav-bar > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Bree Serif', serif;
+    font-size: 21px;
+}
+
+/* // Sections */
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    color: white;
+
+    h1 {
+        font-family: 'Bree Serif', serif;
+        font-size: 53px;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 26px;
+    }
+}
+
+#about {
+    background-color: rgba(243, 63, 63, 0.8);
+
+    .about-text {
+        position: absolute;
+        top: 45%;
+    }
+}
+
+#events {
+    background-color: rgba(63, 63, 243, 0.8);
+
+    .cards-container {
+        position: absolute;
+        top: 25%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+}
+
+#order {
+    background-color: rgb(25, 134, 25);
+
+    .order-steps {
+        position: absolute;
+        top: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .fill-form,
+        .email-us,
+        .delivery {
+            width: 20%;
+
+            i {
+                padding-bottom: 1rem;
+            }
+        }
+    }
+}
+
+#locations {
+    background-color: rgb(245, 233, 63);
+
+    .location-div {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+#contact-us {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .contact-outlets {
+        width: 125px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* // Event cards */
+.event-card {
+    width: 30%;
+    height: 58%;
+    position: relative;
+     background: url(https://idigitalcitizen.files.wordpress.com/2009/08/6x4-autobobots-logo.jpg) 50% / cover no-repeat; 
+    margin: 0 1.3rem;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        visibility: hidden;
+    }
+
+    .event-date {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0.8rem;
+        background-color: #77d7b9;
+        display: flex;
+        flex-direction: column;
+
+        .date {
+            font-size: 24px;
+            text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+        }
+
+        .month {
+            text-transform: uppercase;
+        }
+
+        .month,
+        .year {
+            font-size: 12px;
+        }
+
+        .event-image {
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+    .event-data {
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        padding: 0.8rem 0.5rem;
+        background-color: white;
+        color: black;
+        /*// Takes the height of the h3 tag with the class event-title and adds 3.5rem to hide the event details. */
+        transform: translateY(calc(145px + 0.5rem));
+        transition: transform 0.5s;
+
+        .event-title {
+            font-family: 'Bree Serif', serif;
+            width: 100%;
+            height: 60px;
+            margin-bottom: 2rem;
+        }
+
+        .event-details {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            bottom: 0;
+        }
+    }
+
+    /*// When user hovers their mouse over the card, the event details pop up.*/
+    &:hover {
+        .overlay {
+            visibility: visible;
+            opacity: 0.5;
+            transition: opacity 0.5s, visibility 0.5s, ease;
+        }
+        .event-data {
+            transform: translateY(0);
+            transition: transform 0.5s;
+        }
+    }
+}
+
+/*// Responsive design */
+
+/* // Extra Small & Small devices */
+@media screen and (max-width: 600px) {
+    // navbar
+    .nav-bar {
+        ul {
+            display: none;
+        }
+    }
+}
